@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>SLA</title>
+</head>
+
+<body>
+ 
+<div class="quiz">
+
+  <h2>Será que você me conhece? 👀</h2>
+
+  <div class="pergunta">
+    <p>Qual o meu livro favorito?</p>
+
+    <label><input type="radio" name="livro" value="a"> A) As mil partes do meu coração</label>
+    <label><input type="radio" name="livro" value="b"> B) A Rainha Vermelha</label>
+    <label><input type="radio" name="livro" value="c"> C) Mentirosos</label>
+  </div>
+
+  <div class="pergunta">
+    <p>Qual o meu filme favorito?</p>
+
+    <label><input type="radio" name="filme" value="a"> A) Como eu era antes de você</label>
+    <label><input type="radio" name="filme" value="b"> B) Avatar</label>
+    <label><input type="radio" name="filme" value="c"> C) Jogos Vorazes</label>
+  </div>
+
+  <div class="pergunta">
+    <p>Qual a minha cor favorita?</p>
+
+    <label><input type="radio" name="cor" value="a"> A) Azul</label>
+    <label><input type="radio" name="cor" value="b"> B) Preto</label>
+    <label><input type="radio" name="cor" value="c"> C) Não tenho</label>
+  </div>
+
+  <div class="pergunta">
+    <p>Qual minha estação do ano favorita?</p>
+
+    <label><input type="radio" name="estacao" value="a"> A) Verão</label>
+    <label><input type="radio" name="estacao" value="b"> B) Inverno</label>
+    <label><input type="radio" name="estacao" value="c"> C) Primavera</label>
+  </div>
+
+  <div class="pergunta">
+    <p>Qual meu estilo musical favorito?</p>
+
+    <label><input type="radio" name="musica" value="a"> A) Pop</label>
+    <label><input type="radio" name="musica" value="b"> B) Sertanejo</label>
+    <label><input type="radio" name="musica" value="c"> C) Kpop</label>
+  </div>
+
+  <button onclick="verResultado()">Ver Resultado</button>
+  <p id="resultado"></p>
+
+</div>
+
+<script src="quizscript.js"></script>
+
+</body>
